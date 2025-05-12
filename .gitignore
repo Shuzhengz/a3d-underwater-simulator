@@ -181,6 +181,5 @@ build/
 NVIDIA-OptiX-SDK-*.sh
 
 # Project Specific
-
 .idea/
 target/

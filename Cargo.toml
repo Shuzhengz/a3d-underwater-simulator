@@ -1,6 +1,16 @@
 [package]
 name = "a3d-underwater-simulator"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
+license = "BSD-3-Clause"
+description = "A physically accurate underwater renderer"
+homepage = "https://github.com/UCSD-E4E/a3d-underwater-simulator"
+repository = "https://github.com/UCSD-E4E/a3d-underwater-simulator"
+readme = "README.md"
+
+[features]
+default = []
+cuda = ["cubecl/cuda"]
 
 [dependencies]
+cubecl = "0.5.0"
